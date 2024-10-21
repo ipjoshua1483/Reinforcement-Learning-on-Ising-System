@@ -9,7 +9,7 @@ The Ising system is described by a 2D lattice structure where the objective is t
 
 ## Proximal Policy Optimization
 ![PPO](./figures/PPO.png)
-*Left: Magnetic field vs temperature, Right: Entropy vs training steps.*
+*Left: Magnetic field vs temperature, Right: Entropy vs training steps for PPO.*
 
 Although PPO successfully flips the spins while keeping the initial and final temperatures equal, the resulting entropy is ~2400, which is much higher than the supposed minimum of ~100 found by alternative methods. We reason that there is learning to an extent, given that the naive approach to flipping signs will yield an entropy of ~4000 instead. However, this signifies that other methods should be investgiated.
 
